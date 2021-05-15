@@ -6,7 +6,7 @@ To daemonize your script, just add or source the functionality you need into the
 
 When the script is adapted to your needs, it is easily started and stopped with systemd service command (available on most Linux distributions). Long gone is the need to use crontab, and the template also supports automatic stop and start on computer/server halt and startup.
 
-Commands to start/stop and view current status:
+Commands to start/stop and view current status your daemon script:
 ```
 # Depending on what your script is actually doing, you may need to run these commands with sudo
 systemctl start mydaemonscript.sh          # start the daemon script
