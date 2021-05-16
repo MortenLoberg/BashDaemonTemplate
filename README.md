@@ -17,8 +17,7 @@ This article <https://www.linode.com/docs/guides/start-service-at-boot/> explain
 
 When the script is adapted to your needs, all ***systemd*** service commands are available at your fingertips.
 
-Your bash daemon is easily started and stopped using the commands below, and it's equally easy to get the current status of your daemon script:  
-*NOTE: Depending on what your script is actually doing, you may need to run these commands with **sudo**.*
+Your bash daemon is easily started and stopped using the commands below, and it's equally easy to get the current status of your daemon script (*NOTE: Depending on what your script is actually doing, you may need to run these commands with **sudo**.*):
 
 ```bash
 systemctl start mybashdaemon     # starts your bash daemon
@@ -33,6 +32,10 @@ To get your daemon to start automatically on computer/server boot, simply *enabl
 systemctl enable mybashdaemon    # auto-starts your bash daemon on computer/server boot
 systemctl disable mybashdaemon   # does not auto-start your bash daemon on computer/server boot
 ```
+
+## How to get started?
+
+Read details in [DOCS.md](https://github.com/MortenLoberg/BashDaemonTemplate/blob/master/DOCS.md) with regards to how to install and set up your first bash daemon.
 
 ## License
 
