@@ -2,6 +2,9 @@
 
 <a href="https://www.buymeacoffee.com/mortenloberg" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px;" ></a>
 
+## Test another
+[Buy Me A Coffee]![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png){:target="_blank" height="50%" width="50%"}(https://www.buymeacoffee.com/mortenloberg)
+
 A simple and easy to understand template for writing ***systemd*** based daemons in Bash-scripts (Bourne-Again SHell).
 
 To daemonize your script, just add or source the functionality you need into the doCommands() function, adjust the basic settings of the daemon script like name of the daemon and time between iterations, and adjust the service script to your needs. See [DOCS.md](https://github.com/MortenLoberg/BashDaemonTemplate/blob/master/DOCS.md) for installation details.
