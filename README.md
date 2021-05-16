@@ -13,7 +13,7 @@ Long gone is the need to use crontab, and complicated runlevel setups for automa
 This article <https://www.linode.com/docs/guides/start-service-at-boot/> explains it as follows (this is a brief extract, I recommend reading the full article):
 > *"systemd is a Linux system tool initially developed by the Red Hat Linux team. It includes many features, including a bootstrapping system used to start and manage system processes. It is currently the default initialization system on most Linux distributions. Many commonly used software tools, such as SSH and Apache, ship with a systemd service."*
 
-## What *systemd* commands are available?
+## Which *systemd* commands are available?
 
 When the script is adapted to your needs, all ***systemd*** service commands are available at your fingertips.
 
@@ -32,6 +32,8 @@ To get your daemon to start automatically on computer/server boot, simply *enabl
 systemctl enable mybashdaemon    # auto-starts your bash daemon on computer/server boot
 systemctl disable mybashdaemon   # does not auto-start your bash daemon on computer/server boot
 ```
+
+Run "*man systemctl*" to read which other ***systemd*** service commands are available.
 
 ## How to get started?
 
