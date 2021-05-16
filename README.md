@@ -1,6 +1,6 @@
 # Bash Daemon Template
 
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png style="height: 60px !important;width: 217px !important;")](https://www.buymeacoffee.com/mortenloberg)
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png; height: 60px; width: 217px)](https://www.buymeacoffee.com/mortenloberg)
 
 A simple and easy to understand template for writing ***systemd*** based daemons in Bash-scripts (Bourne-Again SHell).
 
