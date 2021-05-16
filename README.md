@@ -1,5 +1,7 @@
 # Bash Daemon Template
 
+<https://www.buymeacoffee.com/mortenloberg>
+
 A simple and easy to understand template for writing ***systemd*** based daemons in Bash-scripts (Bourne-Again SHell).
 
 To daemonize your script, just add or source the functionality you need into the doCommands() function, adjust the basic settings of the daemon script like name of the daemon and time between iterations, and adjust the service script to your needs. See [DOCS.md](https://github.com/MortenLoberg/BashDaemonTemplate/blob/master/DOCS.md) for installation details.
