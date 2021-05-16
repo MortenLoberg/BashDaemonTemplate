@@ -1,6 +1,6 @@
 # Bash Daemon Template
 
-<a href="https://www.buymeacoffee.com/mortenloberg" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50%" width="50%"></a>
+<a href="https://www.buymeacoffee.com/mortenloberg" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 109px !important;"></a>
 
 ## Test another
 
