@@ -1,10 +1,6 @@
 # Bash Daemon Template
 
-<a href="https://www.buymeacoffee.com/mortenloberg" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px; width: 108px;"></a>
-
-## Test another
-
-<a href="https://www.buymeacoffee.com/mortenloberg" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="25%"/></a>
+<a href="https://www.buymeacoffee.com/mortenloberg" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="20%"/></a>
 
 A simple and easy to understand template for writing ***systemd*** based daemons in Bash-scripts (Bourne-Again SHell).
 
