@@ -1,22 +1,21 @@
 # Bash Daemon Template
 
-A simple and easy to understand template for writing systemd-based daemons in Bash-scripts (Bourne-Again SHell).
+A simple and easy to understand template for writing *systemd* based daemons in Bash-scripts (Bourne-Again SHell).
 
-To daemonize your script, just add or source the functionality you need into the doCommands() function, adjust the basic settings of the daemon script like time between iterations, and adjust the service script to your needs. 
+To daemonize your script, just add or source the functionality you need into the doCommands() function, adjust the basic settings of the daemon script like name of the daemon and time between iterations, and adjust the service script to your needs. See *DOCS.md* for installation details.
 
 When the script is adapted to your needs, it is easily started and stopped with systemd service command (available on most Linux distributions). Long gone is the need to use crontab, and the template also supports automatic stop and start on computer/server halt and startup.
 
 Commands to start/stop and view current status your daemon script:
 ```
 # Depending on what your script is actually doing, you may need to run these commands with sudo
-systemctl start mydaemonscript.sh          # start the daemon script
-systemctl stop mydaemonscript.sh           # stops the daemon script
-systemctl status mydaemonscript.sh         # shows the current status of the daemon script
+systemctl start mybashdaemon       # start your bash daemon
+systemctl stop mybashdaemon        # stop your bash daemon
+systemctl status mybashdaemon      # display current status of your bash daemon
 ```
 
-To ensure your script is started on computer/server startup, you need to enable it:
-```
-systemctl enable mydaemonscript.sh         # starts the daemon script automatically on computer/server startup
-systemctl disable mydaemonscript.sh        # does not start the daemon script automatically on computer/server startup
-```
+To automatically start your bash daemon on computer/server startup, simply *enable* it:
+> systemctl enable mybashdaemon    # auto-starts your bash daemon on computer/server boot
+> systemctl disable mybashdaemon   # does not auto-start your bash daemon on computer/server boot
+This is a test.
 
