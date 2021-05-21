@@ -36,8 +36,8 @@ systemctl status mybashdaemon    # displays the current status of your bash daem
 To get your daemon to start automatically on computer/server boot, simply *enable* it:
 
 ```bash
-systemctl enable mybashdaemon    # auto-starts your bash daemon on computer/server boot
-systemctl disable mybashdaemon   # does not auto-start your bash daemon on computer/server boot
+systemctl enable mybashdaemon    # enables your bash daemon to auto-start on computer/server boot
+systemctl disable mybashdaemon   # disables your bash daemon from auto-starting on computer/server boot
 ```
 
 Run "*man systemctl*" to read which other ***systemd*** service commands are available.
