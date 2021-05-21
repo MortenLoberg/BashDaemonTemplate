@@ -4,9 +4,7 @@
 
 This is an easy to understand template for writing ***systemd*** based daemons in Bash-scripts (Bourne-Again SHell).
 
-To daemonize your script follow the instructions in [DOCS.md](https://github.com/MortenLoberg/BashDaemonTemplate/blob/master/DOCS.md).
-
-Long gone is the need to use crontab (which by the way is still good to use for particular usage), and complicated runlevel setups for automatic start and stop on computer/server boot and halt, respectively.
+Long gone is the need to use crontab (which by the way is still good to use for particular purposes), and complicated runlevel setups for automatic start and stop on computer/server boot and halt, respectively.
 
 ## What is *systemd*?
 
@@ -46,7 +44,7 @@ Run "*man systemctl*" to read which other ***systemd*** service commands are ava
 
 ## How to get started?
 
-Read details in [DOCS.md](https://github.com/MortenLoberg/BashDaemonTemplate/blob/master/DOCS.md) with regards to how to install and set up your first bash daemon.
+To daemonize your bash script follow the instructions in [DOCS.md](https://github.com/MortenLoberg/BashDaemonTemplate/blob/master/DOCS.md).
 
 ## License
 
