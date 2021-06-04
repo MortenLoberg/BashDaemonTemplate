@@ -46,9 +46,13 @@ Run "*man systemctl*" to find out which other ***systemd*** service commands are
 
 To daemonize your bash script follow the instructions in [DOCS.md](https://github.com/MortenLoberg/BashDaemonTemplate/blob/master/DOCS.md).
 
+## Contributors
+
+Contributors are welcome to improve the template! However, please leave it as a template and nothing more. Secondly, if you clone the repository to your local computer, and make changes which you push back to the master repository, **please be careful not to include your own personalized daemon script or functionality** - this is a template and I wish to keep it like that.
+
 ## Disclaimer
 
-Use at your own risk. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+Use at your own risk! Developers and contributors assume no liability and are not responsible for any misuse or damage caused by this template.
 
 ## License
 
