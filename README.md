@@ -4,7 +4,7 @@
 
 This is an easy to understand template for writing ***systemd*** based daemons in Bash-scripts (Bourne-Again SHell).
 
-Long gone is the complicated runlevel setups for automatic start and stop on computer/server boot and halt, respectively, and the need to use crontab (which by the way is still good to use for particular purposes).
+Long gone are the complicated runlevel setups for automatic start and stop on computer/server boot and halt, respectively, and the need to use crontab (which by the way is still good to use for particular purposes).
 
 ## What is *systemd*?
 
@@ -33,7 +33,7 @@ systemctl restart mybashdaemon   # restarts your bash daemon
 systemctl status mybashdaemon    # displays the current status of your bash daemon
 ```
 
-To get your daemon to start automatically on computer/server boot, simply *enable* it:
+To get your daemon to automatically start on computer/server boot, and stop on computer/server halt, simply *enable* it:
 
 ```bash
 systemctl enable mybashdaemon    # enables your bash daemon to auto-start on computer/server boot
