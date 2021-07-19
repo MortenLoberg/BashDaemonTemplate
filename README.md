@@ -33,7 +33,7 @@ systemctl restart mybashdaemon   # restarts your bash daemon
 systemctl status mybashdaemon    # displays the current status of your bash daemon
 ```
 
-To get your daemon to automatically start on computer/server boot, and stop on computer/server halt, simply *enable* it:
+Simply give the *enable* and *disable* commands to get your daemon to automatically start on computer/server boot, and stop on computer/server halt:
 
 ```bash
 systemctl enable mybashdaemon    # enables your bash daemon to auto-start on computer/server boot
