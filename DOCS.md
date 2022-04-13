@@ -58,7 +58,7 @@ doCommands() {
   #myFunction1 "param1" "param2" "param3"   # calls/runs your function number one
   #myFunction2 "param1" "param2" "param3"   # calls/runs your function number two
   
-**  cd "$localPath"
+**  cd "$localPath" >> /dev/null 2>&1
   exit_code_get=`echo mget $vRemotePath/* | sftp -i $vSSHKey $vServer >> /dev/null 2>&1 && echo 0 || echo 1`
   write_log "$vLog" "Finished with result=$exit_code_get"
 **  
