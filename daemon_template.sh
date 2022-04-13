@@ -4,8 +4,8 @@
 # DISCLAIMER:
 #   THIS SCRIPT IS 
 #
-#   THIS SCRIPT IS COPIED FROM:
-#       
+#   THIS SCRIPT ORIGINATES FROM:
+#       https://github.com/MortenLoberg/BashDaemonTemplate/daemon_template.sh
 ###############################################################################
 # Script name:  daemon_template.sh
 # Location:     /path-of-your-bash-script/
