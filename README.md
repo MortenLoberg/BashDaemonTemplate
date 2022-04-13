@@ -16,7 +16,7 @@ And on the [systemd project web page](https://systemd.io/) they write:
 
 So ***systemd*** is a System and Service Manager, and it is implemented/available on many Linux distro's out there, like (note that this is probably not a complete list): RHEL, Fedora, Debian, Ubuntu, openSUSE, Arch Linux, Mageia and Gentoo.
 
-That's all very good, but the best part in my opinion, is that it supports implementing user-written daemons, and quite easily as well!
+That's all very good, but the best part in my opinion, is that ***systemd*** supports implementing user-written daemons, and quite easily as well!
 
 Note that the Bash Daemon Template available in this repository, and it's documentation, assumes it is installed by a system administrator as it is a system-wide daemon (i.e. running independently from the user starting it). However, it shouldn't be too tricky to adapt it to run in systemd user mode. If that's what you want/need, perhaps the article [systemd/User - ArchWiki](https://wiki.archlinux.org/title/Systemd/User#How_it_works) is a good place to start.
 
