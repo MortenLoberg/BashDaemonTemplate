@@ -4,6 +4,8 @@
 #       IT IS MAINTAINED BY: Name-Of-Author
 #       STORE IN: /etc/systemd/system/
 #
+#   THIS TEMPLATE ORIGINATES FROM:
+#       https://github.com/MortenLoberg/BashDaemonTemplate/daemon_template.service
 ######################################################################
 [Unit]
 Description=Daemon Template
