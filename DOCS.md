@@ -4,10 +4,6 @@
 
 Contributors are welcome to improve the template! However, please leave it as a template and nothing more. Secondly, if you clone the repository to your local computer, and make changes which you push back to the master repository, please be careful not to include your own personalized daemon script or functionality - this is a template and I wish to keep it like that.
 
-## DISCLAIMER
-
-Use at your own risk! Developers and contributors assume no liability and are not responsible for any misuse or damage caused by this template.
-
 ## 1. Clone the repository
 
 Get a local clone:
@@ -99,3 +95,7 @@ Stop your daemon script as follows (in some cases you may need to run this comma
 ```bash
 systemctl stop mysftpget_daemon
 ```
+
+## Disclaimer
+
+Use at your own risk! Developers and contributors assume no liability and are not responsible for any misuse or damage caused by this template.
